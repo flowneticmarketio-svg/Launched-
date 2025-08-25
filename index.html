@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SHSSS Headlines</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #f5f5f7;
+      color: #1a1a1a;
+      scroll-behavior: smooth;
+    }
+
+    /* Header */
+    header {
+      background-color: #0d0d0d;
+      color: #fff;
+      text-align: center;
+      padding: 6rem 2rem 4rem;
+    }
+    header h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      line-height: 1.2;
+      margin-bottom: 1rem;
+    }
+    header p {
+      font-size: 1.1rem;
+      font-weight: 400;
+      max-width: 700px;
+      margin: 0 auto;
+      line-height: 1.6;
+      opacity: 0.85;
+    }
+
+    /* Disclaimer */
+    .disclaimer {
+      max-width: 900px;
+      margin: -50px auto 3rem;
+      background-color: #ffea75;
+      color: #1a1a1a;
+      font-weight: 600;
+      padding: 1.25rem 2rem;
+      border-radius: 0.75rem;
+      text-align: center;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+      font-size: 1rem;
+    }
+
+    /* Section */
+    section {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 3rem 2rem;
+    }
+
+    /* Cards Grid */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 1rem;
+      padding: 2.5rem 2rem;
+      box-shadow: 0 6px 25px rgba(0,0,0,0.06);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 14px 40px rgba(0,0,0,0.12);
+    }
+    .card h2 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+      color: #0d0d0d;
+    }
+    .card p {
+      font-size: 0.95rem;
+      color: #555;
+      line-height: 1.5;
+      text-align: center;
+      margin-bottom: 1.5rem;
+    }
+
+    /* QR Placeholder */
+    .qr {
+      width: 160px;
+      height: 160px;
+      margin-bottom: 1.5rem;
+      border-radius: 0.5rem;
+      background-color: #e0e0e0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #777;
+      font-size: 0.85rem;
+    }
+
+    /* Buttons */
+    .links a {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      margin: 0.3rem;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.9rem;
+      transition: all 0.3s;
+    }
+    .website { background-color: #0d47a1; color: #fff; }
+    .app { background-color: #00796b; color: #fff; }
+    .whatsapp { background-color: #25d366; color: #fff; }
+    .links a:hover { opacity: 0.85; transform: translateY(-2px); }
+
+    /* Features */
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+    .feature-card {
+      background: #fff;
+      border-radius: 1rem;
+      padding: 2rem 1.5rem;
+      text-align: center;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.06);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .feature-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 14px 28px rgba(0,0,0,0.12);
+    }
+    .feature-card h3 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      margin-bottom: 0.7rem;
+      color: #0d0d0d;
+    }
+    .feature-card p {
+      font-size: 0.9rem;
+      color: #555;
+      line-height: 1.4;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #0d0d0d;
+      color: #fff;
+      text-align: center;
+      padding: 3rem 2rem;
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+    footer strong { color: #ffea75; }
+
+    @media (max-width: 600px) {
+      header h1 { font-size: 2rem; }
+      header p { font-size: 1rem; }
+    }
+  </style>
+
+  <script>
+    // Auto redirect after 12 seconds
+    setTimeout(() => {
+      window.location.href = "https://shsss-org.github.io/home/";
+    }, 23000);
+  </script>
+</head>
+<body>
+
+<header>
+  <h1>SHSSS Headlines</h1>
+  <p>A private, student-run initiative providing News, Books, PYQs, PDFs, Gallery, Marketplace, and more. Development supported by Flovvnetic IO.</p>
+</header>
+
+<div class="disclaimer">
+⚠️ <strong>Disclaimer:</strong> SHSSS Headlines is a private non-profit initiative. Not affiliated with Saiyyid Hamid Senior Secondary School. Redirecting to main site in 20 seconds.
+</div>
+
+<section>
+  <div class="grid">
+    <div class="card">
+      <h2>Website</h2>
+      <p>Explore all content and updates through our official website.</p>
+      <div class="links">
+        <a class="website" href="https://shsss-org.github.io/home2/" target="_blank">Visit Website</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Mobile App</h2>
+      <p>Fast, lightweight access to SHSSS Headlines resources.</p>
+      <div class="links">
+        <a class="app" href="https://drive.google.com/file/d/10_O3_66eitlLWXhm2horBlnqhAR0AElq/view?usp=drivesdk" target="_blank">Download App</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>WhatsApp Channel</h2>
+      <p>Stay updated instantly by joining our WhatsApp channel.</p>
+      <div class="links">
+        <a class="whatsapp" href="https://chat.whatsapp.com/B8kDVqM2yq9I7vmb6ZNc43?mode=ems_copy_c" target="_blank">Join WhatsApp</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="features">
+  <div class="feature-card">
+    <h3>PYQs</h3>
+    <p>Past Year Questions for exam preparation.</p>
+  </div>
+  <div class="feature-card">
+    <h3>Books</h3>
+    <p>Academic books and study materials.</p>
+  </div>
+  <div class="feature-card">
+    <h3>PDFs</h3>
+    <p>Downloadable PDF resources for free.</p>
+  </div>
+  <div class="feature-card">
+    <h3>Marketplace</h3>
+    <p>Buy, sell, or exchange study materials easily.</p>
+  </div>
+  <div class="feature-card">
+    <h3>Gallery</h3>
+    <p>Photos and memories from school events.</p>
+  </div>
+  <div class="feature-card">
+    <h3>News</h3>
+    <p>Latest updates, announcements, and highlights.</p>
+  </div>
+</section>
+
+<footer>
+Created by <strong>Team SHSSS Headlines</strong> — a private non-profit initiative. Not affiliated with Saiyyid Hamid Senior Secondary School. Development assistance by <strong>Flovvnetic IO</strong>.
+</footer>
+
+</body>
+</html>
